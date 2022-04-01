@@ -1,0 +1,29 @@
+{
+  "name": "ndt7-ts",
+  "version": "0.0.1",
+  "description": "Client library for the ndt7 speedtest protocol",
+  "private": true,
+  "main": "lib/ndt7.node.js",
+  "module": "lib/ndt7.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Roberto D'Auria (roberto@measurementlab.net)",
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "source-map-loader": "^3.0.1",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "web-worker": "^1.2.0",
+    "ws": "^8.5.0"
+  }
+}
