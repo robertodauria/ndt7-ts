@@ -1,6 +1,6 @@
 import Worker from 'web-worker';
 
-var f: Object = (typeof fetch !== 'undefined' ? fetch : import('node-fetch'));
+const f: unknown = (typeof fetch !== 'undefined' ? fetch : import('node-fetch'));
 
 
 // cb creates a default-empty callback function, allowing library users to
