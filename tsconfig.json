@@ -8,9 +8,8 @@
     "allowJs": true,
     //"noImplicitAny": true
     "sourceMap": true,
-    "noImplicitReturns": true,
-    "declaration": true
+    "strict": true
   },
-  "include": ["./src/**/*.js"],
+  "include": ["./src/**/*.ts"],
   "exclude": ["./node_modules/**"]
 }
